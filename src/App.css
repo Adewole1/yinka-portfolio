@@ -1,0 +1,117 @@
+#root {
+  margin: 0;
+  width: 100%;
+  overflow-x: clip;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-color: rgba(18, 18, 18, 0);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-color: rgba(18, 18, 18, 0);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100%));
+  }
+}
+
+.header::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #fd5d00;
+}
+
+.header::selection {
+  color: white;
+  background: #fd5d00;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-color: rgba(18, 18, 18, 0);
+}
+
+.no-scrollbar::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+ul.slick-dots > li {
+  margin: 0 !important;
+}
+
+ul.slick-dots > li > button::before {
+  color: white;
+  opacity: 1;
+  font-size: 8px;
+}
+
+ul.slick-dots > li.slick-active > button::before {
+  color: #fd5d00;
+  opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled,
+.slick-next.slick-disabled:before {
+  opacity: 0;
+  stroke: transparent;
+}
+
+.scroll-container {
+  display: flex;
+  animation: scroll 120s linear infinite;
+  will-change: transform;
+}
+
+.scroll-wrapper {
+  display: flex;
+  width: calc(200%); /* Adjust according to the number of items */
+}
+
+.scroll-item {
+  flex-shrink: 0;
+}
+
+.scroll-item:hover {
+  transform: translateY(-16px);
+}
+
+.fade-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10%; /* Adjust the width of the fade effect */
+  z-index: 1;
+}
+
+.fade-left {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(18, 18, 18, 1) 20%,
+    rgba(18, 18, 18, 0) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.fade-right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(18, 18, 18, 1) 20%,
+    rgba(18, 18, 18, 0) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
