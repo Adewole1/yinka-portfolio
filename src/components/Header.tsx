@@ -6,7 +6,7 @@ const Header = () => {
       <p className="uppercase lg:text-lg 2xl:text-xl">OLAYINKA FADARE</p>
       <div className="hidden gap-3 items-center lg:gap-5 2xl:gap-6 md:flex">
         <p
-          onClick={() => goToSection("/")}
+          onClick={() => goToSection("welcome")}
           className="text-sm transition-all duration-500 ease-in-out lg:text-base 2xl:text-lg hover:text-primary hover:cursor-pointer"
         >
           Hi👋🏾

@@ -86,7 +86,7 @@ function App() {
       <Header />
       <div className="flex flex-col items-center bg-[#121212] w-full h-full">
         <div className="flex flex-col bg-[#121212] w-full h-full text-white">
-          <div className="flex flex-col-reverse md:grid md:grid-cols-2 max-w-[1440px] mx-auto gap-6 md:gap-8 lg:gap-10 2xl:gap-10 py-12 md:py-16 lg:py-20 2xl:py-24 px-6 md:px-16 lg:px-24 2xl:px-32">
+          <div id="welcome" className="flex flex-col-reverse md:grid md:grid-cols-2 max-w-[1440px] mx-auto gap-6 md:gap-8 lg:gap-10 2xl:gap-10 py-12 md:py-16 lg:py-20 2xl:py-24 px-6 md:px-16 lg:px-24 2xl:px-32">
             <div className="flex flex-col gap-4 md:gap-8 lg:gap-10 2xl:gap-12">
               <div className="flex flex-col gap-3 lg:gap-4 2xl:gap-6">
                 <p className="text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl md:leading-[60px] lg:leading-[72px] 2xl:leading-[90px] tracking-tighter header">
