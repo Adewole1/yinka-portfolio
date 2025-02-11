@@ -1,10 +1,20 @@
+import { useEffect, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import "./App.css";
 import Header from "./components/Header";
-import { useEffect, useRef } from "react";
+import confluence from "./assets/images/tools/confluence.png";
+import miro from "./assets/images/tools/miro.png";
+import figma from "./assets/images/tools/figma.png";
+import framer from "./assets/images/tools/framer.png";
+import jira from "./assets/images/tools/jira.png";
+import randstad from "./assets/icons/randstad.png";
+import opera from "./assets/icons/opera.png";
+import lemfi from "./assets/icons/lemfi.png";
+import opay from "./assets/icons/opay.png";
+import terragon from "./assets/icons/terragon.png";
 
 function App() {
   const settings = {
@@ -722,27 +732,27 @@ function App() {
                   </p>
                   <div className="flex justify-between items-center w-full">
                     <img
-                      src={"/src/assets/images/tools/confluence.png"}
+                      src={confluence}
                       alt="confluence"
                       className="w-24 min-[330px]:w-32 h-auto md:w-40 lg:w-56"
                     />
                     <img
-                      src={"/src/assets/images/tools/miro.png"}
+                      src={miro}
                       alt="miro"
                       className="w-5 min-[330px]:w-7 h-auto md:w-10 lg:w-12"
                     />
                     <img
-                      src={"/src/assets/images/tools/figma.png"}
+                      src={figma}
                       alt="figma"
                       className="w-5 min-[330px]:w-7 h-auto md:w-10 lg:w-12"
                     />
                     <img
-                      src={"/src/assets/images/tools/framer.png"}
+                      src={framer}
                       alt="framer"
                       className="w-5 min-[330px]:w-7 h-auto md:w-10 lg:w-12"
                     />
                     <img
-                      src={"/src/assets/images/tools/jira.png"}
+                      src={jira}
                       alt="jira"
                       className="w-12 min-[330px]:w-16 h-auto md:w-24 lg:w-28"
                     />
@@ -875,23 +885,23 @@ function App() {
             </p>
             <div className="flex gap-4 items-center md:gap-6 lg:gap-8 2xl:gap-12">
               <img
-                src="/src/assets/icons/randstad.png"
+                src={randstad}
                 className="w-10 min-[330px]:w-14 h-auto md:w-28 lg:w-36 xl:w-40"
               />
               <img
-                src="/src/assets/icons/opera.png"
+                src={opera}
                 className="w-10 min-[330px]:w-14 h-auto md:w-28 lg:w-36 xl:w-40"
               />
               <img
-                src="/src/assets/icons/lemfi.png"
+                src={lemfi}
                 className="w-10 min-[330px]:w-14 h-auto md:w-28 lg:w-36 xl:w-40"
               />
               <img
-                src="/src/assets/icons/opay.png"
+                src={opay}
                 className="w-10 min-[330px]:w-14 h-auto md:w-28 lg:w-36 xl:w-40"
               />
               <img
-                src="/src/assets/icons/terragon.png"
+                src={terragon}
                 className="w-10 min-[330px]:w-14 h-auto md:w-28 lg:w-36 xl:w-40"
               />
             </div>
