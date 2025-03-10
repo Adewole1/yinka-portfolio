@@ -171,7 +171,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="rounded-xl lg:rounded-2xl w-full h-80 sm:h-[28rem] md:h-[30rem] lg:h-[36rem] xl:h-full bg-no-repeat bg-[auto_170%] bg-center md:bg-[auto_160%] lg:bg-[auto_160%] xl:bg-[auto_140%] md:bg-[center_top_-150px] lg:bg-[center_top_-200px] bg-[url('/src/assets/images/yinka.jpg')] xl:col-span-5"></div>
+            <div className="rounded-xl lg:rounded-2xl w-full h-80 sm:h-[28rem] md:h-[30rem] lg:h-[36rem] xl:h-full bg-no-repeat bg-[auto_180%] bg-[center_top_-100px] md:bg-[auto_160%] lg:bg-[auto_160%] xl:bg-[auto_140%] md:bg-[center_top_-150px] lg:bg-[center_top_-200px] bg-[url('/src/assets/images/yinka.jpg')] xl:col-span-5"></div>
           </div>
           <div
             id="studies"
