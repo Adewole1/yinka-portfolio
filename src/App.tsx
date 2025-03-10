@@ -86,24 +86,29 @@ function App() {
       <Header />
       <div className="flex flex-col items-center bg-[#121212] w-full h-full">
         <div className="flex flex-col bg-[#121212] w-full h-full text-white">
-          <div id="welcome" className="flex flex-col-reverse md:grid md:grid-cols-2 max-w-[1440px] mx-auto gap-6 md:gap-8 lg:gap-10 2xl:gap-10 py-12 md:py-16 lg:py-20 2xl:py-24 px-6 md:px-16 lg:px-24 2xl:px-32">
-            <div className="flex flex-col gap-4 md:gap-8 lg:gap-10 2xl:gap-12">
+          <div
+            id="welcome"
+            className="flex flex-col md:grid md:grid-cols-2 xl:grid-cols-12 max-w-[1440px] w-full mx-auto gap-6 md:gap-8 lg:gap-10 2xl:gap-14 py-12 md:py-16 lg:py-20 2xl:py-24 px-6 md:px-16 lg:px-24 2xl:px-32"
+          >
+            <div className="flex flex-col gap-4 md:gap-8 lg:gap-10 2xl:gap-12 xl:col-span-7">
               <div className="flex flex-col gap-3 lg:gap-4 2xl:gap-6">
                 <p className="text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl md:leading-[60px] lg:leading-[72px] 2xl:leading-[90px] tracking-tighter header">
-                  Designing solutions that makes your user's lives easier and
-                  aligns with your business strategy.
+                  Olayinka designs solutions that makes user's lives easier and
+                  deliver impact.
                 </p>
                 <p className="lg:text-lg text-[#D9D9D9] header">
-                  A Data-driven UX Designer with 6 years of experience
-                  delivering strategic, end-to-end design for startups,
-                  scale-ups, and global companies. I combine design with
-                  user/market/product research and business strategy. I
-                  collaborate with stakeholders and facilitate strategic
-                  workshops to drive impactful solutions, and I have a technical
-                  background in HTML, CSS & Javascript.
+                  She is a Data-driven and Strategic UX/Product Designer with +5
+                  years of experience, who blends product/business strategy,
+                  creativity, and collaboration to turn complex challenges into
+                  intuitive, user-centered solutions that scale globally.
+                </p>
+                <p className="lg:text-lg text-[#D9D9D9] header">
+                  She designs end-to-end experiences for startups, scale-ups,
+                  and global companies and has a technical background in HTML,
+                  CSS & Javascript.
                 </p>
               </div>
-              <div className="flex gap-3 items-center lg:gap-4">
+              {/* <div className="flex gap-3 items-center lg:gap-4">
                 <svg
                   width="34"
                   height="34"
@@ -128,12 +133,45 @@ function App() {
                     fill="white"
                   />
                 </svg>
-              </div>
+              </div> */}
               <p className="font-medium italic lg:text-lg text-[#D9D9D9] header">
                 Netherlands work permit available.
               </p>
+              <div className="flex items-center flex-wrap gap-x-2 gap-y-3 lg:gap-y-4">
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">
+                    Business strategy
+                  </p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">
+                    Product strategy
+                  </p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">User research</p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">User testing</p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">Design system</p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">Prototyping</p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">Collaboration</p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">UI design</p>
+                </div>
+                <div className="flex items-center px-3 py-2 lg:px-4 bg-[#1C1C1C] rounded-xl lg:rounded-2xl w-fit">
+                  <p className="text-sm lg:text-base header">Gen AI</p>
+                </div>
+              </div>
             </div>
-            <div className="rounded-xl lg:rounded-2xl w-full h-[28rem] md:h-[30rem] lg:h-[36rem] xl:h-[39.5rem] bg-no-repeat bg-[auto_170%] bg-center md:bg-[auto_160%] lg:bg-[auto_160%] xl:bg-[auto_180%] md:bg-[center_top_-150px] lg:bg-[center_top_-200px] xl:bg-[center_top_-280px] bg-[url('/src/assets/images/yinka.jpg')]"></div>
+            <div className="rounded-xl lg:rounded-2xl w-full h-[28rem] md:h-[30rem] lg:h-[36rem] xl:h-full bg-no-repeat bg-[auto_170%] bg-center md:bg-[auto_160%] lg:bg-[auto_160%] xl:bg-[auto_140%] md:bg-[center_top_-150px] lg:bg-[center_top_-200px] bg-[url('/src/assets/images/yinka.jpg')] xl:col-span-5"></div>
           </div>
           <div
             id="studies"
@@ -143,8 +181,15 @@ function App() {
               Design Case Studies
             </p>
             <div className="grid grid-cols-1 gap-4 w-full md:grid-cols-2 lg:gap-6 lg:gap-y-8">
-              <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl">
-                <div className="rounded-xl lg:rounded-2xl w-full h-72 lg:h-96 2xl:h-[25rem] bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/randstad.png')]"></div>
+              <a
+                href="https://www.canva.com/design/DAGb2dYGPWo/t_jfPkRP4hf-xq9xhQG3dw/view?utm_content=DAGb2dYGPWo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0a0268e644"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl group"
+              >
+                <div className="overflow-clip">
+                  <div className="rounded-xl lg:rounded-2xl w-full h-72 lg:h-96 2xl:h-[25rem] bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/randstad.png')] group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
+                </div>
                 <div className="flex flex-col gap-3 lg:gap-4">
                   <p className="text-xl lg:text-2xl 2xl:text-3xl header lg:leading-8 2xl:leading-9">
                     Randstad: Helping Job Seekers make Informed Career
@@ -156,22 +201,37 @@ function App() {
                     40%.
                   </p>
                 </div>
-              </div>
-              <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl">
-                <div className="rounded-xl lg:rounded-2xl w-full h-72 lg:h-96 2xl:h-[25rem] bg-no-repeat bg-cover bg-center lg:bg-right-center bg-[url('/src/assets/images/studies/opay.png')]"></div>
+              </a>
+              <a
+                href="https://www.canva.com/design/DAGbGh_kR1Q/KnKpisHIpICx0UojY8o2yg/view?utm_content=DAGbGh_kR1Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8e27755bb8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl group"
+              >
+                <div className="overflow-clip">
+                  <div className="rounded-xl lg:rounded-2xl w-full h-72 lg:h-96 2xl:h-[25rem] bg-no-repeat bg-cover bg-center lg:bg-right-center bg-[url('/src/assets/images/studies/opay.png')] group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
+                </div>
                 <div className="flex flex-col gap-3 lg:gap-4">
                   <p className="text-xl lg:text-2xl 2xl:text-3xl header lg:leading-8 2xl:leading-9">
                     Opera Payments (OPay): Redesigning the Merchant&Developer
                     Payment API Documentation Experience:
                   </p>
                   <p className="lg:text-lg text-[#D9D9D9] header lg:leading-7">
-                    To Improve Usability & Engagement and tap into missed
-                    revenue opportunities.
+                    To reduce drop-off rate by 30%, Improve API adoption by 50%
+                    & user engagement by 20% and tap into missed revenue
+                    opportunities.
                   </p>
                 </div>
-              </div>
-              <div className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl col-span-full">
-                <div className="rounded-xl lg:rounded-2xl w-full h-72 lg:h-96 2xl:h-[34rem] bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/quick.png')]"></div>
+              </a>
+              <a
+                href="https://www.canva.com/design/DAGbGkS-jTA/ZsQMNjZDU_D8ni36NULyiQ/view?utm_content=DAGbGkS-jTA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3ad99b9b0c"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl col-span-full group"
+              >
+                <div className="overflow-clip">
+                  <div className="rounded-xl lg:rounded-2xl w-full h-72 lg:h-96 2xl:h-[34rem] bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/quick.png')] group-hover:scale-110 transition-all duration-500 ease-in-out"></div>
+                </div>
                 <div className="flex flex-col gap-3 lg:gap-4">
                   <p className="text-xl lg:text-2xl 2xl:text-3xl header lg:leading-8 2xl:leading-9">
                     Best Rates: Simplifying Cross-Border Payments for Nigerians
@@ -181,7 +241,7 @@ function App() {
                     Designing a centralized, real-time currency comparison tool.
                   </p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
           <div className="flex flex-col gap-4 lg:gap-6 2xl:gap-8 py-12 md:py-16 lg:py-20 2xl:py-24 px-6 md:px-16 lg:px-24 2xl:px-[7.5rem] max-w-[1440px] mx-auto w-full">
@@ -455,7 +515,7 @@ function App() {
                       About Me
                     </p>
                     <p className="lg:text-lg text-[#D9D9D9] header">
-                      A strategic UX Designer with over six years of experience
+                      A strategic UX Designer with +5 years of experience
                       shaping user-centered solutions across industries like
                       recruitment, fintech, and payments. With a background in
                       Computer Science, I have a solid technical background in
@@ -523,7 +583,7 @@ function App() {
                     <div className="flex gap-1 lg:gap-1.5 items-center bg-[#2C2C2C] py-1.5 px-4 rounded-lg">
                       <div className="rounded-full size-2 bg-primary"></div>
                       <p className="text-xs lg:text-sm header">
-                        Stakeholder Collaboration
+                        Stakeholder Collaboration & Management
                       </p>
                     </div>
                     <div className="flex gap-1 lg:gap-1.5 items-center bg-[#2C2C2C] py-1.5 px-4 rounded-lg">
@@ -541,6 +601,10 @@ function App() {
                       <p className="text-xs lg:text-sm header">
                         Time Management
                       </p>
+                    </div>
+                    <div className="flex gap-1 lg:gap-1.5 items-center bg-[#2C2C2C] py-1.5 px-4 rounded-lg">
+                      <div className="rounded-full size-2 bg-primary"></div>
+                      <p className="text-xs lg:text-sm header">Presentation</p>
                     </div>
                   </div>
                   <p className="text-xl lg:text-2xl 2xl:text-3xl header lg:leading-8 2xl:leading-9">
