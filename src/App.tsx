@@ -989,7 +989,7 @@ function App() {
                 >
                   olayinkaodetola5@gmail.com
                 </a>{" "}
-                or connect with me on <br />
+                or connect with me on <br className="hidden md:block" />
                 <a
                   href="https://www.linkedin.com/in/olayinka-fadare/"
                   target="_blank"
@@ -1000,6 +1000,22 @@ function App() {
                 </a>
                 .
               </p>
+              <div className="flex items-center gap-2 md:gap-3 2xl:gap-4">
+                <a
+                  href="mailto:olayinkaodetola5@gmail.com"
+                  className="w-fit bg-primary rounded-lg py-2.5 md:py-3 px-3.5 md:px-4 fonr-medium text-white"
+                >
+                  Work with me
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/12gO0r0Y7h5z-atqxbfVlillOzQytkzCP/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-fit bg-white rounded-lg py-2.5 md:py-3 px-3.5 md:px-4 fonr-medium text-gray-700"
+                >
+                  View my resume
+                </a>
+              </div>
             </div>
           </div>
           <div className="flex flex-col items-center gap-4 md:gap-8 lg:gap-12 2xl:gap-16 pb-8 md:pb-12 lg:pb-16 px-6 md:px-16 lg:px-24 2xl:px-[7.5rem] max-w-[1440px] mx-auto w-full">
