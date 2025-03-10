@@ -171,7 +171,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="rounded-xl lg:rounded-2xl w-full h-[28rem] md:h-[30rem] lg:h-[36rem] xl:h-full bg-no-repeat bg-[auto_170%] bg-center md:bg-[auto_160%] lg:bg-[auto_160%] xl:bg-[auto_140%] md:bg-[center_top_-150px] lg:bg-[center_top_-200px] bg-[url('/src/assets/images/yinka.jpg')] xl:col-span-5"></div>
+            <div className="rounded-xl lg:rounded-2xl w-full h-80 sm:h-[28rem] md:h-[30rem] lg:h-[36rem] xl:h-full bg-no-repeat bg-[auto_170%] bg-center md:bg-[auto_160%] lg:bg-[auto_160%] xl:bg-[auto_140%] md:bg-[center_top_-150px] lg:bg-[center_top_-200px] bg-[url('/src/assets/images/yinka.jpg')] xl:col-span-5"></div>
           </div>
           <div
             id="studies"
@@ -377,7 +377,7 @@ function App() {
                 ></a>
                 <div className="flex flex-col gap-1">
                   <div className="flex justify-between items-center">
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl header lg:leading-8 2xl:leading-9">
+                    <p className="text-xl lg:text-2xl 2xl:text-3xl header lg:leading-8 2xl:leading-9 break-words">
                       Technical Documentation Page
                     </p>
                     <a
@@ -401,7 +401,9 @@ function App() {
                           strokeLinecap="round"
                         />
                       </svg>
-                      <p className="text-xs lg:text-sm header">Github Link</p>
+                      <p className="text-xs lg:text-sm header text-nowrap">
+                        Github Link
+                      </p>
                     </a>
                   </div>
                   <p className="lg:text-lg text-[#D9D9D9] header lg:leading-7">
@@ -443,7 +445,9 @@ function App() {
                           strokeLinecap="round"
                         />
                       </svg>
-                      <p className="text-xs lg:text-sm header">Github Link</p>
+                      <p className="text-xs lg:text-sm header text-nowrap">
+                        Github Link
+                      </p>
                     </a>
                   </div>
                   <p className="lg:text-lg text-[#D9D9D9] header lg:leading-7">
@@ -486,7 +490,9 @@ function App() {
                           strokeLinecap="round"
                         />
                       </svg>
-                      <p className="text-xs lg:text-sm header">Github Link</p>
+                      <p className="text-xs lg:text-sm header text-nowrap">
+                        Github Link
+                      </p>
                     </a>
                   </div>
                   <p className="lg:text-lg text-[#D9D9D9] header lg:leading-7">
@@ -504,10 +510,10 @@ function App() {
             <div className="flex flex-col max-w-[1440px] mx-auto gap-4 lg:gap-12 2xl:gap-16 items-center w-full py-12 md:py-16 lg:py-20 2xl:py-24 px-6 md:px-16 lg:px-24 2xl:px-[7.5rem] ">
               <div className="grid grid-cols-1 gap-4 w-full xl:grid-cols-2 md:gap-5 lg:gap-6">
                 <div className="grid grid-cols-1 gap-4 w-full min-[330px]:grid-cols-2 md:gap-5 lg:gap-6">
-                  <div className="bg-no-repeat bg-[auto_120%] bg-center bg-[url('/src/assets/images/about/about1.jpg')] h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
-                  <div className="bg-no-repeat bg-[auto_120%] bg-center bg-[url('/src/assets/images/about/about2.jpg')] h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
-                  <div className="bg-no-repeat bg-[auto_120%] bg-[left_45%_center] bg-[url('/src/assets/images/about/about3.jpg')] h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
-                  <div className="bg-no-repeat bg-[auto_120%] bg-center bg-[url('/src/assets/images/about/about4.jpg')] h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
+                  <div className="bg-no-repeat bg-[auto_120%] bg-center bg-[url('/src/assets/images/about/about1.jpg')] h-96 sm:h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
+                  <div className="bg-no-repeat bg-[auto_120%] bg-center bg-[url('/src/assets/images/about/about2.jpg')] h-96 sm:h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
+                  <div className="bg-no-repeat bg-[auto_120%] bg-[left_45%_center] bg-[url('/src/assets/images/about/about3.jpg')] h-96 sm:h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
+                  <div className="bg-no-repeat bg-[auto_120%] bg-center bg-[url('/src/assets/images/about/about4.jpg')] h-96 sm:h-[32rem] md:h-[43.5rem] w-full rounded-xl lg:rounded-2xl -rotate-y-180"></div>
                 </div>
                 <div className="rounded-xl lg:rounded-2xl bg-[#1C1C1C] flex p-4 md:p-5 lg:p-6 flex-col gap-4 lg:gap-6 2xl:gap-8 w-full h-fit">
                   <div className="flex flex-col gap-3 lg:gap-4 2xl:gap-5">
