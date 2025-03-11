@@ -97,7 +97,7 @@ function App() {
                   deliver impact.
                 </p>
                 <p className="lg:text-lg text-[#D9D9D9] header">
-                  She is a Data-driven and Strategic UX/Product Designer with +5
+                  She is a Data-driven and Strategic UX/Product Designer with +6
                   years of experience, who blends product/business strategy,
                   creativity, and collaboration to turn complex challenges into
                   intuitive, user-centered solutions that scale globally.
@@ -521,7 +521,7 @@ function App() {
                       About Me
                     </p>
                     <p className="lg:text-lg text-[#D9D9D9] header">
-                      A strategic UX Designer with +5 years of experience
+                      A strategic UX Designer with +6 years of experience
                       shaping user-centered solutions across industries like
                       recruitment, fintech, and payments. With a background in
                       Computer Science, I have a solid technical background in
