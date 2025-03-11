@@ -1008,7 +1008,7 @@ function App() {
                   Work with me
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/12gO0r0Y7h5z-atqxbfVlillOzQytkzCP/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1KMSrjd7_TqhOI3cOvylozQbEAJo4o0vB/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-fit bg-white rounded-lg py-2.5 md:py-3 px-3.5 md:px-4 fonr-medium text-gray-700"

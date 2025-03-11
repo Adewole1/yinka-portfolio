@@ -41,7 +41,7 @@ const Header = () => {
         </p>
         <div className="hidden md:inline-block h-5 w-[1px] bg-[#484848]"></div>
         <a
-          href="https://drive.google.com/file/d/12gO0r0Y7h5z-atqxbfVlillOzQytkzCP/view?usp=sharing"
+          href="https://drive.google.com/file/d/1KMSrjd7_TqhOI3cOvylozQbEAJo4o0vB/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-block text-sm transition-all duration-500 ease-in-out lg:text-base 2xl:text-lg hover:text-primary hover:cursor-pointer"
@@ -132,7 +132,7 @@ const Header = () => {
               Contact
             </div>
             <a
-              href="https://drive.google.com/file/d/12gO0r0Y7h5z-atqxbfVlillOzQytkzCP/view?usp=sharing"
+              href="https://drive.google.com/file/d/1KMSrjd7_TqhOI3cOvylozQbEAJo4o0vB/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className={`bg-primary rounded-lg py-2.5 md:py-3 px-3.5 md:px-4 font-medium text-white text-xl mt-auto relative transition-all ${
