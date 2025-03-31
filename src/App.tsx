@@ -182,7 +182,7 @@ function App() {
             </p>
             <div className="grid grid-cols-1 gap-4 w-full md:grid-cols-2 lg:gap-6 lg:gap-y-8">
               <a
-                href="https://www.canva.com/design/DAGb2dYGPWo/t_jfPkRP4hf-xq9xhQG3dw/view?utm_content=DAGb2dYGPWo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0a0268e644"
+                href="https://www.figma.com/deck/de8khZtOk2Mtf0ojjGtP7G/Salary-Checker-Case-Study?node-id=1-640&t=wPHXJ1FCHZT9WbXv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl group"
@@ -203,7 +203,7 @@ function App() {
                 </div>
               </a>
               <a
-                href="https://www.canva.com/design/DAGbGh_kR1Q/KnKpisHIpICx0UojY8o2yg/view?utm_content=DAGbGh_kR1Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8e27755bb8"
+                href="https://www.figma.com/deck/CAMyadjjOk0t5XD5ATYguD/Merchant-Payment-API-Documentation-Case-Study?node-id=1-640&t=A94ZtvFGYTmSt4SK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl group"
@@ -224,7 +224,7 @@ function App() {
                 </div>
               </a>
               <a
-                href="https://www.canva.com/design/DAGbGkS-jTA/ZsQMNjZDU_D8ni36NULyiQ/view?utm_content=DAGbGkS-jTA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3ad99b9b0c"
+                href="https://www.figma.com/deck/JZ3if8NguWnmbSaPh7WNCx/Simplifying-Cross-Border-Payments-Case-Study?node-id=1-640&t=xUdWHlulqQ1b5v2g-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col gap-4 lg:gap-5 2xl:gap-6 w-full p-4 md:p-5 lg:p-6 bg-[#1C1C1C] rounded-xl lg:rounded-2xl col-span-full group"
