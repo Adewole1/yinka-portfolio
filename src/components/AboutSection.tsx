@@ -5,26 +5,33 @@ import figma from "../assets/images/tools/figma.png";
 import framer from "../assets/images/tools/framer.png";
 import jira from "../assets/images/tools/jira.png";
 import lovable from "../assets/images/tools/lovable.png";
+import about1 from "../assets/images/about/about1.jpg";
+import about2 from "../assets/images/about/about2.jpg";
+import about3 from "../assets/images/about/about3.jpg";
+import about4 from "../assets/images/about/about4.jpg";
+import david from "../assets/images/testimonials/david.jpg";
+import alex from "../assets/images/testimonials/alex.jpg";
+import patt from "../assets/images/testimonials/patt.jpg";
 
 const ABOUT_IMAGES = [
   {
     id: 1,
-    url: "/src/assets/images/about/about1.jpg",
+    url: about1,
     position: "bg-center",
   },
   {
     id: 2,
-    url: "/src/assets/images/about/about2.jpg",
+    url: about2,
     position: "bg-center",
   },
   {
     id: 3,
-    url: "/src/assets/images/about/about3.jpg",
+    url: about3,
     position: "bg-[left_45%_center]",
   },
   {
     id: 4,
-    url: "/src/assets/images/about/about4.jpg",
+    url: about4,
     position: "bg-center",
   },
 ];
@@ -144,7 +151,7 @@ const TESTIMONIALS = [
       "I've worked with Olayinka for the past 3 years, creating web applications to serve Randstad's job seekers. She's a driven designer with an interest in strategy, and the bigger picture, so that she can solve the real underlying problems, and not just the symptoms. Any organization would be happy to have her as part of their product team.",
     name: "David Guiza Caicedo",
     title: "Design Manager, Randstad",
-    image: "/src/assets/images/testimonials/david.jpg",
+    image: david,
   },
   {
     id: 2,
@@ -152,7 +159,7 @@ const TESTIMONIALS = [
       "I had the pleasure of working with Olayinka for almost 3 years, during which she consistently impressed me with her ambition, enthusiasm, and ability to adapt the approach to achieve exceptional results. Her design and technical expertise consistently elevated the quality of her deliverables, while her clear, thoughtful communication made collaboration seamless and effective. What sets her apart is her proactive attitude and commitment to excel. She takes full ownership of her responsibilities, ensuring every task is completed with care and precision. At the same time, she is deeply invested in her own learning and development, consistently seeking opportunities to try new methods, grow and refine her skills. I wholeheartedly recommend Olayinka to anyone seeking an invested, driven, and collaborative professional who delivers impactful results and inspires those around her.",
     name: "Alexandra Timus",
     title: "Strategic Senior UX Designer, Randstad",
-    image: "/src/assets/images/testimonials/alex.jpg",
+    image: alex,
   },
   {
     id: 3,
@@ -160,7 +167,7 @@ const TESTIMONIALS = [
       "I've had a great time working with Olayinka on YourRoomz; she's a very talented designer and has a bright future. Olayinka's ability to understand and digest new problems is uniquely quick. She was able to produce the current YourRoomz UX within 1-2 weeks of hearing our initial problem statement, on top of tending to her primary job. What's even more impressive, however, is that she was able to do so when online furniture shopping - the basis of our product - doesn't exist in her home country. Olayinka has done things the right way; she designed a beautiful UX because she focused on listening to users and their pain points. I'm very excited to continue working with her and can't wait to see what else she comes up with.",
     name: "Patt Quinn",
     title: "Digital Experience Consultant, IBM",
-    image: "/src/assets/images/testimonials/patt.jpg",
+    image: patt,
   },
 ];
 

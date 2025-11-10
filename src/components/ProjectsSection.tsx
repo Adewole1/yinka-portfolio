@@ -1,10 +1,15 @@
+import mollie from "../assets/images/projects/mollie.png";
+import documentation from "../assets/images/projects/documentation.png";
+import tribute from "../assets/images/projects/tribute.png";
+import survey from "../assets/images/projects/survey.png";
+
 const PROJECTS = [
   {
     id: 1,
     title: "Mollie's Landing page",
     description:
       "A clone of Mollie's landing page created with HTML, CSS (Grid, Flexbox and positioning).",
-    image: "/src/assets/images/projects/mollie.png",
+    image: mollie,
     liveUrl: "https://olayinkafad.github.io/mollie_landing_page/",
     githubUrl: "https://github.com/olayinkafad/mollie_landing_page",
   },
@@ -13,7 +18,7 @@ const PROJECTS = [
     title: "Technical Documentation Page",
     description:
       "A Javascript technical documentation page created with HTML and styled with CSS (Flexbox and positioning).",
-    image: "/src/assets/images/projects/documentation.png",
+    image: documentation,
     liveUrl: "https://olayinkafad.github.io/techincal_documentation_page/",
     githubUrl: "https://github.com/olayinkafad/techincal_documentation_page",
   },
@@ -22,7 +27,7 @@ const PROJECTS = [
     title: "Tribute Page",
     description:
       "A static tribute page dedicated to John Charles. The page is built using HTML and CSS and showcases key milestones of his life.",
-    image: "/src/assets/images/projects/tribute.png",
+    image: tribute,
     liveUrl: "https://olayinkafad.github.io/tribute_page/",
     githubUrl: "https://github.com/olayinkafad/tribute_page",
   },
@@ -31,7 +36,7 @@ const PROJECTS = [
     title: "Survey Form",
     description:
       "A Javascript technical documentation page created with HTML and styled with CSS (Flexbox and positioning).",
-    image: "/src/assets/images/projects/survey.png",
+    image: survey,
     liveUrl: "https://olayinkafad.github.io/survey_form/",
     githubUrl: "https://github.com/olayinkafad/survey_form",
   },

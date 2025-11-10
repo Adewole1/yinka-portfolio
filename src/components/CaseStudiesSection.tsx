@@ -1,10 +1,15 @@
+import homeWise from "../assets/images/studies/homeWise.png";
+import randstad from "../assets/images/studies/randstad.png";
+import opay from "../assets/images/studies/opay.png";
+import quick from "../assets/images/studies/quick.png";
+
 const CASE_STUDIES = [
   {
     id: 1,
     title: "HomeWise: AI Home Affordability & Savings Coach:",
     description:
       "Empowering home buyers in the Netherlands to understand their real home-buying potential through a clear, conversational AI experience.",
-    image: "/src/assets/images/studies/homeWise.png",
+    image: homeWise,
     url: "https://www.figma.com/deck/3mQj8M3XhenvNcyzm5nip9/AI-Home-Affordability-Coach?node-id=1-318&t=oomwwpgmCN695V9z-1",
     imagePosition: "bg-center",
     height: "2xl:h-[25rem]",
@@ -15,7 +20,7 @@ const CASE_STUDIES = [
     title: "Randstad: Helping Job Seekers make Informed Career Decisions:",
     description:
       "By Designing a Unified Salary Checker, which reduced operational Costs by 93% and increased job conversions by 40%.",
-    image: "/src/assets/images/studies/randstad.png",
+    image: randstad,
     url: "https://www.figma.com/deck/de8khZtOk2Mtf0ojjGtP7G/Salary-Checker-Case-Study?node-id=1-640&t=wPHXJ1FCHZT9WbXv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     imagePosition: "bg-center",
     height: "2xl:h-[25rem]",
@@ -27,7 +32,7 @@ const CASE_STUDIES = [
       "Opera Payments (OPay): Redesigning the Merchant&Developer Payment API Documentation Experience:",
     description:
       "To reduce drop-off rate by 30%, Improve API adoption by 50% & user engagement by 20% and tap into missed revenue opportunities.",
-    image: "/src/assets/images/studies/opay.png",
+    image: opay,
     url: "https://www.figma.com/deck/CAMyadjjOk0t5XD5ATYguD/Merchant-Payment-API-Documentation-Case-Study?node-id=1-640&t=A94ZtvFGYTmSt4SK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     imagePosition: "bg-center lg:bg-right-center",
     height: "2xl:h-[25rem]",
@@ -39,7 +44,7 @@ const CASE_STUDIES = [
       "Best Rates: Simplifying Cross-Border Payments for Nigerians in UK, Europe & North America:",
     description:
       "Designing a centralized, real-time currency comparison tool.",
-    image: "/src/assets/images/studies/quick.png",
+    image: quick,
     url: "https://www.figma.com/deck/JZ3if8NguWnmbSaPh7WNCx/Simplifying-Cross-Border-Payments-Case-Study?node-id=1-640&t=xUdWHlulqQ1b5v2g-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     imagePosition: "bg-center",
     height: "2xl:h-[25rem]",
