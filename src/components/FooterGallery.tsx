@@ -4,27 +4,27 @@ const GALLERY_IMAGES = [
   {
     id: 1,
     url: "/src/assets/images/footer/job.png",
-    className: "w-[25rem] md:w-[37.5rem] 2xl:w-[47rem] h-60 md:h-[25rem] 2xl:h-[30rem]",
+    className: "w-[25rem] md:w-[37.5rem] 2xl:w-[47rem] h-60 min-h-60 md:h-[25rem] md:min-h-[25rem] 2xl:h-[30rem] 2xl:min-h-[30rem]",
   },
   {
     id: 2,
     url: "/src/assets/images/footer/salary.png",
-    className: "w-28 md:w-44 lg:w-44 2xl:w-60 h-60 md:h-[25rem] 2xl:h-[32rem]",
+    className: "w-28 md:w-44 lg:w-44 2xl:w-60 h-60 min-h-60 md:h-[25rem] md:min-h-[25rem] 2xl:h-[32rem] 2xl:min-h-[32rem]",
   },
   {
     id: 3,
     url: "/src/assets/images/footer/mart.png",
-    className: "w-28 md:w-44 lg:w-44 2xl:w-56 h-60 md:h-[25rem] 2xl:h-[32rem]",
+    className: "w-28 md:w-44 lg:w-44 2xl:w-56 h-60 min-h-60 md:h-[25rem] md:min-h-[25rem] 2xl:h-[32rem] 2xl:min-h-[32rem]",
   },
   {
     id: 4,
     url: "/src/assets/images/footer/transfer.png",
-    className: "w-28 md:w-48 2xl:w-60 h-60 md:h-[25rem] 2xl:h-[32rem]",
+    className: "w-28 md:w-48 2xl:w-60 h-60 min-h-60 md:h-[25rem] md:min-h-[25rem] 2xl:h-[32rem] 2xl:min-h-[32rem]",
   },
   {
     id: 5,
     url: "/src/assets/images/footer/profile.png",
-    className: "w-[25rem] md:w-[37.5rem] 2xl:w-[47rem] h-60 md:h-[25rem] 2xl:h-[32rem]",
+    className: "w-[25rem] md:w-[37.5rem] 2xl:w-[47rem] h-60 min-h-60 md:h-[25rem] md:min-h-[25rem] 2xl:h-[32rem] 2xl:min-h-[32rem]",
   },
 ];
 
